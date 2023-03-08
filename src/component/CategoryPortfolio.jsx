@@ -1,29 +1,20 @@
 import React from "react";
 
 function CategoryPortfolio(props){
-    const additionalPassion = ["Front-End", "Back-End", "UI/UX"]
+    const myPortfolio = ["React Shopping", "Angular Project", "Turtoise Project"]
     return(
-        <div className="work-experience">
-            {additionalPassion.map((passion, index)=>{
-                return(
-                    <>
-                    <div key={index}>image</div>
-                    <div><strong>{passion}</strong>Developer</div>
-                    <p>(Bootstrap, Tailwind)</p>
+        <>
+        {myPortfolio.map((portfolio, index)=>{
+            return(
+                <>
+                <div key={index} className="work-experience">
+                    <div><strong>{portfolio}</strong></div>
+                    <div>image</div>
+                </div>
                     </>
                 )
             })}
-        </div>
+        </>
     )
 }
 export default CategoryPortfolio;
-// return (
-//     <div className="container-work">
-//         <h2>Additional Passion</h2>
-//         <div className="container-detail">
-//             <WorkItem/>
-//             <WorkItem/>
-//             <WorkItem/>
-//         </div>
-//     </div>
-// )

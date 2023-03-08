@@ -10,7 +10,7 @@ function CategoryAdditionalPassion(props){
                     <div key={index}>image</div>
                     <div><strong>{passion}</strong>Developer</div>
                     <p>(Bootstrap, Tailwind)</p>
-                    </div>
+                </div>
                     </>
                     )
                 })}
