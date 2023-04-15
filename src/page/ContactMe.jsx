@@ -6,7 +6,7 @@ import NavBar from "../component/NavBar";
 
 function ContactMe() {
   return (
-    <div>
+    <div className="App">
       <NavBar />
       <div className="container-work">
         <h2>

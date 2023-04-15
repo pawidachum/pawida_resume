@@ -3,7 +3,7 @@ import NavBar from "../component/NavBar";
 
 function Portfolio(){
     return (
-        <div>
+        <div className="App">
             <NavBar/>
         <div className="container-work">
             <h2>My <strong>Portfolio</strong></h2>

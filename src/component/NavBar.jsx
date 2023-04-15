@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 function NavBar() {
   return (
-    <div className="flex justify-between">
+    <div className="flex justify-between items-center mb-[107px]">
       <div className="text-2xl tracking-wider hover:text-3xl">
         <Link className="text-[#14279B]" to="/">
           <span className="font-bold text-[#002265] ">Pawida</span> Chumpurat

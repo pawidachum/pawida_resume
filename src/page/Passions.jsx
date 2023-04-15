@@ -3,7 +3,7 @@ import NavBar from "../component/NavBar";
 
 function Passion() {
   return (
-    <div>
+    <div className="App">
       <NavBar />
       <div className="container-work">
         <h2>

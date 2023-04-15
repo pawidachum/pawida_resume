@@ -3,9 +3,9 @@ import profilePic from "../assets/profile/may.svg"
 
 function AboutMe (){
     return (
-       <div>
+       <div className="App">
             <NavBar/>
-        <div className="aboutme">
+        <div className="">
            <div className="picture-aboutme">
             <img className="rounded-e-full h-[120px] w-[120px] bg-blue-500" src={profilePic} alt="pawida"/>
            </div>
