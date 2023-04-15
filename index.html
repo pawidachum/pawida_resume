@@ -1,10 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- <link rel="stylesheet" href="./index.css"> -->
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://cdn.tailwindcss.com"></script>    
+   <script src="https://cdn.tailwindcss.com"></script>
+    <style type="text/tailwindcss">
+      @layer utilities {
+        .link{
+          @apply relative hover:text-[#14279B]
+        }
+        .link::after{
+          @apply content-[''] bg-[#002265] h-[3px] w-[0%] left-0 -bottom-[5px] rounded-xl absolute duration-300
+        }
+        .link:hover::after{
+          @apply w-[100%]
+        }
+      }
+
+    </style>
     <title>pawida_resume</title>
   </head>
   <body>

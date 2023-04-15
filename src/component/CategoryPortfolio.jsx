@@ -2,19 +2,19 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 
 
-function CategoryPortfolio(props){
-    const navigate = useNavigate();
+function CategoryPortfolio(){
+    // const navigate = useNavigate();
     const myPortfolio = ["React Shopping", "Angular Project", "Turtoise Project"]
 
-    const handleClick=()=>{
+    // const handleClick=()=>{
         
-    }
+    // }
     return(
         <>
         {myPortfolio.map((portfolio, index)=>{
             return(
                 <>
-                <div key={index} className="work-experience" onClick={handleClick}>
+                <div key={index} className="work-experience" >
                     <div><strong>{portfolio}</strong></div>
                     <div>project file</div>
                 </div>

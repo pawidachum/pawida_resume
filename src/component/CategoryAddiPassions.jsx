@@ -1,5 +1,5 @@
 
-function CategoryAdditionalPassion(props){
+function CategoryAddiPassion(){
     const additionalPassion = ["Front-End", "Back-End", "UI/UX"]
     return(
         <>
@@ -18,4 +18,4 @@ function CategoryAdditionalPassion(props){
     )
     
 };
-export default CategoryAdditionalPassion;
+export default CategoryAddiPassion;

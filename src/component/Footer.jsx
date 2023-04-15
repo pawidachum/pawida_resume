@@ -1,4 +1,4 @@
-import waveImage from "../image/wave.png"
+import waveImage from "../assets/decorate/wave.png"
 
 function Footer(){
     return (
