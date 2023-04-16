@@ -5,11 +5,12 @@ function Passion() {
   return (
     <div className="App">
       <NavBar />
-      <div className="container-work">
-        <h2>
-          Additional <strong>Passion</strong>
+      <div className="flex flex-col gap-14 text-center mb-40 ">
+        <h2 className="text-4xl tracking-widest text-[#14279B]">
+          Additional
+          <span className="font-semibold text-[#002265]"> Passion</span>
         </h2>
-        <div className="container-detail">
+        <div className="flex gap-10 justify-between">
           <CategoryAddiPassions />
         </div>
       </div>
