@@ -5,22 +5,27 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-   <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Kanit:wght@200&family=Kodchasan:wght@200&family=Poppins:wght@300;400&family=Prompt&family=Sarabun:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
     <style type="text/tailwindcss">
       @layer utilities {
-        .link{
-          @apply relative hover:text-[#608AF5]
+        .link {
+          @apply relative hover:text-[#608AF5];
         }
-        .link::after{
-          @apply content-[''] bg-[#14279B] h-[3px] w-[0%] left-0 -bottom-[5px] rounded-xl absolute duration-300
+        .link::after {
+          @apply content-[''] bg-[#14279B] h-[3px] w-[0%] left-0 -bottom-[5px] rounded-xl absolute duration-300;
         }
-        .link:hover::after{
-          @apply w-[100%]
+        .link:hover::after {
+          @apply w-[100%];
         }
       }
-      @layer utilities{
-        .portfolio{
-         
+      @layer utilities {
+        .portfolio {
         }
       }
     </style>

@@ -29,7 +29,7 @@ function CategoryPortfolio() {
               <img
                 src={data.image}
                 alt={data.alt}
-                className="w-[350px] h-[200px] rounded-lg bg-white z-10 relative inset-14 shadow-[0px_1px_7px_2px_rgba(0,0,0,0.25)]"
+                className="w-[85%] h-[50%] rounded-lg bg-white z-10 relative inset-14 shadow-[0px_1px_7px_2px_rgba(0,0,0,0.25)]"
               />
             </div>
           </>
