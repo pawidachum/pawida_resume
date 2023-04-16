@@ -66,21 +66,22 @@ function Profile() {
           </h2>
           <div className="flex gap-40 justify-between">
             <a href="https://github.com/pawidachum" className="flex flex-col items-center gap-4">
-              <img src={githubLogo} />
+              <img src={githubLogo} alt="github logo"/>
               <h5 className="text-2xl hover:font-medium hover:text-[#608AF5]">Git Hub</h5>
             </a>
 
             <a href="https://www.linkedin.com/in/pawida-chumpurat-09aa3585/" className="flex flex-col items-center gap-4">
-              <img src={linkedInLogo} />
+              <img src={linkedInLogo} alt="linkedIn logo"/>
               <h5 className="text-2xl hover:font-medium hover:text-[#608AF5]">LinkedIn</h5>
             </a>
 
             <a href="mailto: pawida.may@gmail.com" className="flex flex-col items-center gap-4">
-              <img src={emailLogo} />
+              <img src={emailLogo} alt="email logo"/>
               <h5 className="text-2xl hover:font-medium hover:text-[#608AF5]">Email</h5>
             </a>
+
             <a href="tel: +0635455516" className="flex flex-col items-center gap-4">
-              <img src={phoneLogo} />
+              <img src={phoneLogo} alt="phone logo"/>
               <h5 className="text-2xl hover:font-medium hover:text-[#608AF5]">Phone</h5>
             </a>
           </div>
