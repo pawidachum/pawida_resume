@@ -21,7 +21,7 @@ function Profile() {
       >
         <NavBar />
         {/* about me */}
-        <div className="flex justify-between tracking-wider mb-20 bg-green-100">
+        <div className="flex justify-between tracking-wider mb-20">
           <div className="w-3/5">
             <p className="text-[#002265] text-4xl leading-snug">Hello!</p>
             <h1 className="whitespace-pre-wrap text-[#002265] font-semibold text-5xl leading-snug mb-8">
@@ -41,23 +41,26 @@ function Profile() {
           <img className="w-[30%] rounded-full" src={profilePic} alt="pawida" />
         </div>
         {/* passion */}
-        <div className="flex-col flex gap-14 items-center">
-          <h2 className="text-4xl tracking-wider text-[#14279B]">
-            Additional <span className="font-semibold text-[#002265]">Passion</span>
+        <div className="flex-col flex gap-14 items-center mb-40">
+          <h2 className="text-4xl tracking-widest text-[#14279B]">
+            Additional
+            <span className="font-semibold text-[#002265]"> Passion</span>
           </h2>
           <div className="flex gap-10">
             <CategoryAddiPassions />
           </div>
         </div>
         {/* portfolio */}
-        <h2>
-          My <strong>Portfolio</strong>
-        </h2>
-        <div className="container-detail">
-          <CategoryPortfolio />
+        <div className="flex-col flex gap-14 items-center mb-40">
+          <h2 className="text-4xl tracking-widest text-[#14279B]">
+            My <span className="font-semibold text-[#002265]"> Portfolio</span>
+          </h2>
+          <div className="flex gap-10 relative">
+            <CategoryPortfolio />
+          </div>
         </div>
+        {/* contact me */}
         <div>
-          {/* contact me */}
           <h2>
             Contact <strong>Me</strong>
           </h2>
