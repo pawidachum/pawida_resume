@@ -1,4 +1,4 @@
-import githubLogo from "../assets/contact/github-icon.svg";
+import githubLogo from "../assets/contact/github.svg";
 import linkedInLogo from "../assets/contact/linkedin-circle-logo-16618.svg";
 import emailLogo from "../assets/contact/email.svg";
 import phoneLogo from "../assets/contact/blue-phone.svg";

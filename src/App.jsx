@@ -1,10 +1,10 @@
 import './App.css'
 import { BrowserRouter, Routes, Route  } from 'react-router-dom'
-import Profile from './page/Profile'
-import AboutMe from './page/AboutMe'
-import Passion from './page/Passions'
-import Portfolio from './page/Portfolio'
-import ContactMe from './page/ContactMe'
+import Profile from './pages/Profile'
+import AboutMe from './pages/AboutMe'
+import Passion from './pages/Passions'
+import Portfolio from './pages/Portfolio'
+import ContactMe from './pages/ContactMe'
  
 function App() {
   return (
