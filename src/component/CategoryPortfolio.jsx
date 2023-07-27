@@ -1,14 +1,7 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
 import { portfolio } from "../data/portfolio.js";
 
 function CategoryPortfolio() {
-  // const navigate = useNavigate();
-  // const myPortfolio = ["Resume", "Mini Project", "Course Flow"]
-
-  // const handleClick=()=>{
-
-  // }
   return (
     <>
       {portfolio.map((data, index) => {
@@ -22,15 +15,19 @@ function CategoryPortfolio() {
                 {data.project_name}
               </div>
               <img
-                src="src/assets/decorate/circle.png"
+                src="assets/decorate/circle.png"
                 alt="circle"
                 className="absolute left-12 w-[220px] h-[220px] rounded-full "
               />
-              <img
-                src={data.image}
-                alt={data.alt}
+              <a href={data.link}
                 className="w-[85%] h-[50%] rounded-lg bg-white z-10 relative inset-14 shadow-[0px_1px_7px_2px_rgba(0,0,0,0.25)]"
+                >
+              <img
+              className="rounded-lg w-full h-full"
+              src={data.image}
+              alt={data.alt}
               />
+              </a>
             </div>
           </>
         );

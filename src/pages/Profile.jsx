@@ -1,19 +1,15 @@
 import Footer from "../component/Footer";
-import blueDotBG from "../assets/decorate/Background.png";
+import blueDotBG from "/assets/decorate/Background.png";
 import NavBar from "../component/NavBar";
-import profilePic from "../assets/profile/may.svg";
+import profilePic from "/assets/profile/may.svg";
 import CategoryPortfolio from "../component/CategoryPortfolio";
 import CategoryAddiPassions from "../component/CategoryAddiPassions";
-import githubLogo from "../assets/contact/github.svg";
-import linkedInLogo from "../assets/contact/linkedin-circle-logo-16618.svg";
-import emailLogo from "../assets/contact/email.svg";
-import phoneLogo from "../assets/contact/blue-phone.svg";
-import { useNavigate } from "react-router-dom";
+import githubLogo from "/assets/contact/github.svg";
+import linkedInLogo from "/assets/contact/linkedin-circle-logo-16618.svg";
+import emailLogo from "/assets/contact/email.svg";
+import phoneLogo from "/assets/contact/blue-phone.svg";
 
 function Profile() {
-  const navigate = useNavigate();
-
-
   return (
     <div>
       <div
@@ -45,7 +41,7 @@ function Profile() {
           <img className="w-[30%] rounded-full" src={profilePic} alt="pawida" />
         </div>
         {/* passion */}
-        <div className="flex flex-col gap-14 text-center mb-40 cursor-pointer" onClick={()=>{navigate("/passions")}}>
+        <div className="flex flex-col gap-14 text-center mb-40">
           <h2 className="text-4xl tracking-widest text-[#14279B]">
             Additional
             <span className="font-semibold text-[#002265]"> Passion</span>
@@ -55,7 +51,7 @@ function Profile() {
           </div>
         </div>
         {/* portfolio */}
-        <div className="flex-col flex gap-14 text-center mb-40 cursor-pointer" onClick={()=>{navigate("/portfolio")}}>
+        <div className="flex-col flex gap-14 text-center mb-40 cursor-pointer">
           <h2 className="text-4xl tracking-widest text-[#14279B]">
             My <span className="font-semibold text-[#002265]"> Portfolio</span>
           </h2>
@@ -90,8 +86,8 @@ function Profile() {
             </a>
           </div>
         </div>
-        <Footer />
       </div>
+        <Footer />
     </div>
   );
 }

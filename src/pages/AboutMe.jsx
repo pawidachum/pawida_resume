@@ -1,5 +1,5 @@
 import NavBar from "../component/NavBar";
-import profilePic from "../assets/profile/may.svg";
+import profilePic from "/assets/profile/may.svg";
 import { GiMaterialsScience } from "react-icons/gi";
 
 function AboutMe() {

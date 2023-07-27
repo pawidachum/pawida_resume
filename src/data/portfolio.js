@@ -1,17 +1,20 @@
 export const portfolio = [
     {
-        image: "src/assets/portfolio/resume.png",
-        project_name: "Resume",
-        alt: "pawida resume"
+        image: "/assets/portfolio/calapp2.png",
+        project_name: "Calculator App",
+        alt: "calculator app",
+        link: "https://github.com/pawidachum/calculator-project"
     },
     {
-        image: "src/assets/portfolio/digital-agency.png",
-        project_name: "Digital Agency",
-        alt: "Digital Agency Project"
+        image: "/assets/portfolio/realtimeChat.png",
+        project_name: "NodeJs Realtime Chat",
+        alt: "NodeJs realtime chat",
+        link: "https://github.com/pawidachum/realtimeChat"
     },
     {
-        image: "src/assets/portfolio/course-flow.png",
+        image: "/assets/portfolio/course-flow.png",
         project_name: "Course Flow",
-        alt: "Course Flow Project"
+        alt: "Course Flow Project",
+        link: "https://github.com/pawidachum/Course-Flow"
     },
 ]
